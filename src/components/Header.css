@@ -1,0 +1,23 @@
+  /* Header styling */
+  .header{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 0%;
+    background-color: #1cab80;
+    color: white;
+    text-shadow: 2px 2px 10px #4c4c4c;
+}
+
+.wave{
+    height: 100%;
+}
+/* Media queries for screens bigger than an iPad --------------------------------------------*/
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Media queries for screens bigger than an iPad Air ----------------------------------------*/
+@media only screen and (min-width: 1000px) {
+
+}

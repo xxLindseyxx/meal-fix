@@ -1,0 +1,80 @@
+/* index.php News styling --------------------------------------------------------------------------*/
+.news{
+    padding: 10px;
+    line-height: 22px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    background-color: #efefef;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+/* Recipe containers for the recipe placeholders on the index page --------------------------------*/
+.recipe-container{
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+}
+
+.recipe-box{
+    background-color: #95df63;
+    border-radius: 5px;
+    padding: 50px;
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+}
+
+.recipe-box-1{
+    background-color: #ff9c23;
+    border-radius: 5px;
+    padding: 60px;
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+}
+
+.recipe-box-2{
+    background-color: #f14ba3;
+    border-radius: 5px;
+    padding: 50px;
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+}
+
+/* Media queries for screens bigger than an iPad --------------------------------------------*/
+@media only screen and (min-width: 768px) {
+
+
+/* Extra styling for the recipe boxes on index.php ------------------------------------------*/
+   .recipe-box{
+        padding: 80px;
+    }
+
+    .recipe-box-1{
+        padding: 120px;
+    }
+
+    .recipe-box-2{
+        padding: 80px;
+    }
+}
+
+
+.recipe-container{
+    justify-content: space-around;
+}
+
+/* Media queries for screens bigger than an iPad Air ----------------------------------------*/
+@media only screen and (min-width: 1000px) {
+   .recipe-box{
+    padding: 100px;
+    }
+
+    .recipe-box-1{
+        padding: 140px;
+    }
+
+    .recipe-box-2{
+        padding: 100px;
+    }
+}

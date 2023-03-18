@@ -1,0 +1,21 @@
+  /* Footer styling for the whole website --------------------------------------------------*/
+  .footer{
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    color: rgb(81, 81, 81);
+    display: flex;
+    justify-content: space-between;
+    
+}
+.footer ul li{
+    list-style-type: none;  
+}
+/* Media queries for screens bigger than an iPad --------------------------------------------*/
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Media queries for screens bigger than an iPad Air ----------------------------------------*/
+@media only screen and (min-width: 1000px) {
+
+}

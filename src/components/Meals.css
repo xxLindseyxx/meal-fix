@@ -1,0 +1,47 @@
+/* Styling for meal.php ----------------------------------------------------------------------- */
+.add-meal p, i, span{
+    color: #1a1a1a;
+}
+.add-meal{
+    background-color: #95df63;
+    padding: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin: 10px;
+}
+
+.your-meals p, i, span{
+    color: #1a1a1a;
+}
+
+
+.your-meals{
+    background-color: #fd57d1;
+    padding: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin: 10px;
+}
+
+.recipe-meal p, i, span{
+    color: #1a1a1a;
+}
+
+
+.recipe-meal{
+    background-color: #ff931f;
+    padding: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin: 10px;
+}
+
+/* Media queries for screens bigger than an iPad --------------------------------------------*/
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Media queries for screens bigger than an iPad Air ----------------------------------------*/
+@media only screen and (min-width: 1000px) {
+
+}

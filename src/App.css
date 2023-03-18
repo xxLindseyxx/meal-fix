@@ -1,0 +1,14 @@
+/* Styling for the body the margin is leaving space at the bottom for the navagation menu ---------------*/
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0 0 55px 0;
+  }
+
+  /*Padding for all page titles*/
+h2 {
+  padding: 10px;
+}
+
+a:link {
+  text-decoration: none;
+}
