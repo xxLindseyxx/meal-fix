@@ -1,5 +1,4 @@
 //Imports
-import './App.css';
 import { Routes, Route } from 'react-router-dom';
 
 //Pages
@@ -16,6 +15,7 @@ import AddAMeal from './components/AddAMeal';
 import YourMeals from './components/YourMeals';
 import Recipes from './components/Recipes';
 import ShoppingList from './components/ShoppingList';
+import './App.css';
 
 function App() {
   return (
