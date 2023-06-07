@@ -1,0 +1,519 @@
+
+/* Styling for the body the margin is leaving space at the bottom for the navagation menu ---------------*/
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0 0 55px 0;
+  }
+
+/*No decoration for all links ---------------------------------------------------------------------------*/
+a:link{
+  text-decoration: none;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+/* Header styling */
+.header{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 0%;
+    background-color: #1cab80;
+    color: white;
+    text-shadow: 2px 2px 10px #4c4c4c;
+}
+
+.wave{
+    height: 100%;
+}
+
+/* Styling for SVGs on the header ----------------------------------------------------------------------*/
+.tomato{
+    height: 30px;
+    margin: 10px;
+}
+
+.pepper{
+    height: 30px;
+    margin: 10px;
+}
+
+.lemon{
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.grapes{
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.veg{
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+/* Header styling */
+
+.recipe-title{
+    padding: 10px;
+}
+.recipes{
+    padding: 10px;
+}
+
+/* Mobile nav styling ------------------------------------------------------------------------------- */
+.nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 55px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+    background-color: #ebebeb;
+    display: flex;
+    overflow-x: auto;
+}
+
+.nav-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    min-width: 50px;
+    overflow: hidden;
+    white-space: nowrap;
+    font-family: sans-serif;
+    font-size: 13px;
+    color: #444444;
+    -webkit-tap-highlight-color: transparent;
+    transition: background-color 0.1s ease-in-out;
+}
+
+.nav-link:hover {
+    background-color: #eeeeee;
+}
+
+.nav-link--active {
+    color: #009578;
+}
+.nav-icon {
+    font-size: 18px;
+}
+
+/* Recipe containers for the recipe placeholders on the index page --------------------------------*/
+.recipe-container{
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+}
+
+.recipe-box{
+    background-color: #95df63;
+    border-radius: 5px;
+    padding: 50px;
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+}
+
+.recipe-box-1{
+    background-color: #ff9c23;
+    border-radius: 5px;
+    padding: 60px;
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+}
+
+.recipe-box-2{
+    background-color: #f14ba3;
+    border-radius: 5px;
+    padding: 50px;
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+}
+
+/* index.php News styling --------------------------------------------------------------------------*/
+.news{
+    padding: 10px;
+    line-height: 22px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    background-color: #efefef;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+/*Padding for all page titles*/
+h2 {
+    padding: 10px;
+}
+
+/* Styling for meal.php ----------------------------------------------------------------------- */
+.add-meal a{
+    color: #1a1a1a;
+}
+
+.add-meal{
+    background-color: #95df63;
+    padding: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin: 10px;
+}
+
+.your-meals a{
+    color: #1a1a1a;
+}
+
+.your-meals{
+    background-color: #fd57d1;
+    padding: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin: 10px;
+}
+
+.recipe-meal a{
+    color: #1a1a1a;
+}
+
+.recipe-meal{
+    background-color: #ff931f;
+    padding: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin: 10px;
+}
+
+/*Styling for the links in the lists.php ------------------------------------------------------*/
+.list-1 a{
+    color: #1a1a1a;
+}
+
+.list-1{
+    background-color: #ba0bff;
+    padding: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin: 10px;
+}
+
+.list-2 a{
+    color: #1a1a1a;
+}
+
+.list-2{
+    background-color: #12bcff;
+    padding: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin: 10px;
+}
+
+/*Styling for pantry.php -------------------------------------------------------------------*/
+.pantry-flex{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-content: space-between;
+}
+
+.pantry-flex div h3{
+    font-size: 15px;
+    padding: 10px;
+}
+
+.pantry-flex div ul{
+    list-style-type: none;
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+/* Styling for addameal.php -------------------------------------------------------------- */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #ba0bff;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #da7eff;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    
+  }
+
+  /* Footer styling for the whole website --------------------------------------------------*/
+.footer{
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    color: rgb(81, 81, 81);
+    display: flex;
+    justify-content: space-between;
+    
+}
+.footer ul li{
+    list-style-type: none;  
+}
+
+.account-form{
+    padding: 10px;
+    width: 90%;
+    margin: auto;
+    background-color: #f2f2f2;
+    -webkit-box-shadow: 12px 10px 38px 1px rgba(0,0,0,0.39); 
+    box-shadow: 12px 10px 38px 1px rgba(0,0,0,0.39);
+    margin-bottom: 20px;
+  }
+
+ /* Account form style ----------------------------------------------------------------------*/ 
+
+  #user_id {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 99.5%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: solid 1px #ccc;
+    border-radius: 4px;
+  }
+
+  #phone_number{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 99.5%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: solid 1px #ccc;
+    border-radius: 4px;
+  }
+
+  #password{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 99.5%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: solid 1px #ccc;
+    border-radius: 4px;
+  }
+
+  h3{
+    padding: 10px;
+  }
+
+  /*Calendar css -----------------------------------------------------------*/
+
+.calendar-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 10px;
+  justify-content: center;
+  min-height: 50vh;
+  background: #efefef;
+  margin: 0;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.wrapper-calendar{
+  width: 350px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.12);
+}
+.wrapper-calendar header{
+  display: flex;
+  align-items: center;
+  padding: 25px 30px 10px;
+  justify-content: space-between;
+}
+
+.login-container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.create-container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.create-form{
+  margin: auto;
+  width: 350px;
+  padding-top: 20px;
+}
+
+.meal {
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  min-width: 50px;
+  -webkit-tap-highlight-color: transparent;
+  transition: background-color 0.1s ease-in-out;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  width: 70%;
+  padding: 10px;
+  color: #ffffff;
+  border-radius: 2px;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4); 
+}
+
+.meal:nth-child(odd){
+  background-color:#d05bfe
+}
+
+.meal:nth-child(even){
+  background-color: #f9a953;
+}
+
+.meal-names a{
+    color: #ffffff;
+}
+
+#message{
+  color: red;
+}
+
+#create-account{
+  color: #b700ff;
+}
+/*Delete icon in yourmeals.php --------------------------------------------------------------*/
+#delete.material-icons.nav-icon{
+    float: right;
+}
+/* Media queries for screens bigger than an iPad --------------------------------------------*/
+@media only screen and (min-width: 768px) {
+
+    .wrapper{
+        width: 600px;
+    }
+    .wrapper-calendar{
+      width: 450px;
+    }
+
+/* Extra styling for the nav ----------------------------------------------------------------*/
+   .nav{
+        position: unset;
+        background-color: #ffffff;
+        box-shadow: none;
+   }
+
+   .nav-link{
+        font-size: 16px;
+   }
+/* Extra styling for the recipe boxes on index.php ------------------------------------------*/
+   .recipe-box{
+        padding: 80px;
+    }
+
+    .recipe-box-1{
+        padding: 120px;
+    }
+
+    .recipe-box-2{
+        padding: 80px;
+    }
+    .recipe-container{
+        justify-content: space-around;
+    }
+    
+    .container {
+        margin: auto;
+        width: 50%;
+      }
+
+      .account-form{
+        width: 40%;
+      }
+
+      .login-container {
+        margin: auto;
+        width: 30%;
+      }
+
+      .create-container {
+        margin: auto;
+        width: 30%;
+      }
+    }
+
+/* Media queries for screens bigger than an iPad Air ----------------------------------------*/
+@media only screen and (min-width: 1000px) {
+  
+   .wrapper{
+    width: 1000px;
+    margin: 0 auto;
+   }
+
+   .recipe-box{
+    padding: 100px;
+    }
+
+    .recipe-box-1{
+        padding: 140px;
+    }
+
+    .recipe-box-2{
+        padding: 100px;
+    }
+    
+    .container {
+        margin: auto;
+        width: 40%;
+      }
+      .account-form{
+        width: 30%;
+      }
+    
+      .login-container {
+        margin: auto;
+        width: 50%;
+      }
+
+      .create-container {
+        margin: auto;
+        width: 50%;
+      }
+
+      .meal {
+        width: 20%;
+      }
+}
